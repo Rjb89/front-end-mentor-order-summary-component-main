@@ -1,0 +1,113 @@
+:root {
+  --Pale_blue: hsl(225, 100%, 94%);
+  --Bright_blue: hsl(245, 75%, 52%);
+  --Very_pale_blue: hsl(225, 100%, 98%);
+  --Desaturated_blue: hsl(224, 23%, 55%);
+  --Dark_blue: hsl(223, 47%, 23%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero_img {
+  width: 300px;
+}
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--Pale_blue);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  line-height: 1.5;
+}
+.main_heading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: var(--Dark_blue);
+}
+.main_discreption {
+  text-align: center;
+  color: var(--Desaturated_blue);
+  padding: 10px;
+  font-size: 0.7em;
+  margin: auto 1rem;
+}
+.pricing_section {
+  background-color: var(--Very_pale_blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  width: 90%;
+  padding: 0.625rem;
+  margin-bottom: 20px;
+}
+.plan_section {
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+}
+.pricing_paragraph {
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  color: var(--Dark_blue);
+}
+span {
+  color: var(--Desaturated_blue);
+  font-weight: 500;
+}
+.pricing_link {
+  color: var(--Bright_blue);
+  font-size: 0.625rem;
+  font-weight: 900;
+}
+.cancel_link {
+  color: var(--Desaturated_blue);
+  margin-bottom: 20px;
+  text-decoration: none;
+  display: block;
+  width: 50%;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+.music_icon {
+  width: 30%;
+  margin-right: 10px;
+}
+.btn {
+  width: 80%;
+  background-color: var(--Bright_blue);
+  border: transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 0.6rem;
+}
